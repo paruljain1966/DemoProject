@@ -10,6 +10,7 @@ import UIKit
 class TestViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
+    let menuData = MenuDataModel().menuData
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
@@ -23,17 +24,19 @@ class TestViewController: UIViewController {
 extension TestViewController: UITableViewDataSource , UITableViewDelegate {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CustomCell") as! CustomCell
-        cell.orderTextLabel?.text = "Order price total"
-        cell.orderPrice?.text = "$0.00"
+        let menuItem = menuData[indexPath.row]
+        cell.orderTextLabel?.text =  menuItem.itemName
+        cell.orderPrice?.text = "$\(menuItem.price)"
         cell.orderTextLabel.textColor = UIColor.white
         cell.orderPrice.textColor = UIColor.white
         cell.backgroundColor = UIColor.blue
+        
         return cell
     }
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10 // your number of cells here
+        return menuData.count // your number of cells here
     }
     
     
