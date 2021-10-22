@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6C0177BC270DF603007F50ED /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0177BB270DF603007F50ED /* DataModel.swift */; };
 		6CABC3022722FAFC0005A1FC /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CABC3012722FAFC0005A1FC /* ViewController1.swift */; };
+		6CABC3042722FB4F0005A1FC /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CABC3032722FB4F0005A1FC /* ViewController2.swift */; };
 		6CF3320F270B5FB300A6A125 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF3320E270B5FB300A6A125 /* AppDelegate.swift */; };
 		6CF33211270B5FB300A6A125 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF33210270B5FB300A6A125 /* SceneDelegate.swift */; };
 		6CF33213270B5FB300A6A125 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF33212270B5FB300A6A125 /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		6C0177BB270DF603007F50ED /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		6CABC3012722FAFC0005A1FC /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		6CABC3032722FB4F0005A1FC /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		6CF3320B270B5FB300A6A125 /* SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CF3320E270B5FB300A6A125 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CF33210270B5FB300A6A125 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				6CF3320E270B5FB300A6A125 /* AppDelegate.swift */,
 				6CF33210270B5FB300A6A125 /* SceneDelegate.swift */,
 				6CF33212270B5FB300A6A125 /* ViewController.swift */,
+				6CABC3032722FB4F0005A1FC /* ViewController2.swift */,
 				6CF33214270B5FB300A6A125 /* Main.storyboard */,
 				6CF33217270B5FB600A6A125 /* Assets.xcassets */,
 				6CF33219270B5FB600A6A125 /* LaunchScreen.storyboard */,
@@ -175,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CF33213270B5FB300A6A125 /* ViewController.swift in Sources */,
+				6CABC3042722FB4F0005A1FC /* ViewController2.swift in Sources */,
 				6CF3320F270B5FB300A6A125 /* AppDelegate.swift in Sources */,
 				6CF33229270C100800A6A125 /* CustomCell.swift in Sources */,
 				6CF33226270BFC6000A6A125 /* TestViewController.swift in Sources */,
