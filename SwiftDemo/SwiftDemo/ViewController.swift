@@ -44,5 +44,17 @@ class ViewController: UIViewController {
             print("Name is \(name)")
         }
     }
+    func msg1() {
+        
+    }
+    func msg2() {
+        
+    }
+    func msg3() {
+        
+    }
+    func msg4() {
+        
+    }
 }
 
